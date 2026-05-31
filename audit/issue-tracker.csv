@@ -1,0 +1,11 @@
+Issue ID,Category,Priority,Description,Status
+1,Duplicate Event,High,page_view firing twice,Fixed
+2,Duplicate Event,High,generate_lead duplicated,Fixed
+3,Missing Parameter,High,source parameter missing,Fixed
+4,Missing Parameter,Medium,currency parameter missing,Fixed
+5,Broken Trigger,High,CTA click trigger inactive,Fixed
+6,Broken Trigger,High,Newsletter signup trigger inactive,Fixed
+7,Naming Issue,Medium,FormSubmit not GA4 compliant,Fixed
+8,Naming Issue,Medium,CTA_Click inconsistent naming,Fixed
+9,Data Quality,High,Lead attribution incomplete,Fixed
+10,QA Validation,Medium,DebugView validation pending,Completed
