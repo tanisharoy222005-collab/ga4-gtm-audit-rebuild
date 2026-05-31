@@ -1,0 +1,9 @@
+{
+  "exportFormatVersion": 2,
+  "containerVersion": {
+    "name": "Portfolio GTM Container",
+    "container": {
+      "publicId": "GTM-XXXXXXX"
+    }
+  }
+}
