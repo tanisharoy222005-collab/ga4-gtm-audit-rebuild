@@ -1,18 +1,28 @@
 {
-  "name": "ga4-gtm-audit-rebuild",
-  "version": "1.0.0",
-  "description": "GA4 and GTM audit implementation example",
-  "main": "src/analytics.js",
-  "scripts": {
-    "start": "node src/analytics.js",
-    "qa": "node src/qa-checks.js"
-  },
-  "keywords": [
-    "ga4",
-    "gtm",
-    "analytics",
-    "measurement-plan"
-  ],
-  "author": "Tanisha Roy",
-  "license": "MIT"
+  "exportFormatVersion": 2,
+  "containerVersion": {
+    "name": "Portfolio GTM Container",
+    "tag": [
+      {
+        "name": "GA4 Configuration",
+        "type": "gaawc"
+      },
+      {
+        "name": "page_view",
+        "type": "gaawe"
+      },
+      {
+        "name": "generate_lead",
+        "type": "gaawe"
+      }
+    ],
+    "trigger": [
+      {
+        "name": "All Pages"
+      },
+      {
+        "name": "Lead Form Submit"
+      }
+    ]
+  }
 }
